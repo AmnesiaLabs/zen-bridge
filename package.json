@@ -10,16 +10,15 @@
   "author": "Alec Armbruster, alec<at>amnesia.software",
   "license": "ISC",
   "dependencies": {
-    "async": "^3.1.1",
+    "yargs": "^15.3.1",
     "image-to-base64": "^2.0.1",
     "macos-version": "^4.0.0",
     "moment": "^2.24.0",
     "one-liner": "^1.0.3",
-    "osa2": "^0.0.0",
+    "osa2": "0.0.0",
     "pkg": "^4.4.2",
     "socket.io-client": "^2.3.0",
     "sqlite": "^2.8.0",
-    "sqlite3": "^4.1.1",
     "ws": "^7.2.1"
   },
   "pkg": {
