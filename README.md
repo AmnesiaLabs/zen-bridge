@@ -1,6 +1,6 @@
 # Zen Bridge 
 
-📣💬 A lightweight, performant CLI iMessage client for macOS:
+💬🐯 A lightweight, performant headless iMessage client for macOS –
 
 <img align="right" src="https://i.imgur.com/Nl10q2F.gif" height="200">
 
