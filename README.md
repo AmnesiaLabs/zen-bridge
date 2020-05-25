@@ -2,7 +2,7 @@
 
 📣💬 A lightweight, performant CLI iMessage client for macOS:
 
-<img align="right" src="https://i.imgur.com/Nl10q2F.gif" height="220">
+<img align="right" src="https://i.imgur.com/Nl10q2F.gif" height="160">
 
 - Open source and ridiculously simple Node-based API, based upon the pioneering [code of its predecessor](https://github.com/wtfaremyinitials/osa-imessage).
 - Automatically shares new messages with Zen peers (eg. [Zen Client](https://github.com/AmnesiaLabs/zen-client)), and even other Bridges 🤷‍♂️
