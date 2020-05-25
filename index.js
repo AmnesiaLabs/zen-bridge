@@ -92,7 +92,7 @@ auth().then(() => {
     }
 
     if (req.type === "send") {
-      iMessage.send(h, m, t);
+      iMessage.send(req.id, req.text);
     }
 
     if (req.type === "join") {
