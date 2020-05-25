@@ -2,7 +2,7 @@
 
 📣💬 A lightweight, performant CLI iMessage client for macOS:
 
-<img align="right" src="https://i.imgur.com/iRVaeY5.gif" height="320">
+<img align="right" src="https://i.imgur.com/Nl10q2F.gif" height="220">
 
 - Open source and ridiculously simple Node-based API, based upon the pioneering [code of its predecessor](https://github.com/wtfaremyinitials/osa-imessage).
 - Automatically shares new messages with Zen peers (eg. [Zen Client](https://github.com/AmnesiaLabs/zen-client)), and even other Bridges 🤷‍♂️
@@ -36,14 +36,22 @@
 
 </details>
 
+# Visual Demonstration
+
+This gif shows a dev installing and running this project from scratch on macOS 10.15.3's Terminal.app, with [Node v.12.16.3](https://nodejs.org/en/download/) pre-installed –
+
+[![asciicast](https://i.imgur.com/G3vSPvS.gif)](https://asciinema.org/a/SAypYsCjkoaqBmagNyIbHbbMB)
+
 # Installation
 
 Use the package manager [npm](https://npmjs.com) to install Zen Bridge's dependencies.
+
 ```bash
 git clone https://github.com/AmnesiaLabs/zen-bridge
 cd zen-bridge
 npm i
 ```
+
 
 # Usage
 
