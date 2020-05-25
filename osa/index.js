@@ -9,12 +9,6 @@ const currentVersion = macosVersion();
 
 const messagesDb = require("./lib/messages-db.js");
 
-function warn(str) {
-  if (!process.env.SUPPRESS_OSA_IMESSAGE_WARNINGS) {
-    console.error(ol(str));
-  }
-}
-
 // Instead of doing something reasonable, Apple stores dates as the number of
 // seconds since 01-01-2001 00:00:00 GMT. DATE_OFFSET is the offset in seconds
 // between their epoch and unix time
@@ -206,6 +200,10 @@ async function getRecentChats(limit = 10) {
 async function getRecentChatsFromId(id) {
   try {
     const db = await messagesDb.open();
+    if (!id)
+      console.error(
+        "Tried requesting messages from a user which doesn't exist..."
+      );
 
     const query = `
             SELECT
