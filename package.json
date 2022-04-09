@@ -13,7 +13,7 @@
     "yargs": "^15.3.1",
     "image-to-base64": "^2.0.1",
     "macos-version": "^4.0.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "one-liner": "^1.0.3",
     "osa2": "0.0.0",
     "pkg": "^4.4.2",
